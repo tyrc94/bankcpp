@@ -120,7 +120,7 @@ void view_account()
     }
 
     acc_number = stoi(acc_num_input);
-    if (accounts.count(stoi(acc_num_input))==0){
+    if (accounts.count(acc_number)==0){
         cout << "Account does not exist.\n";
         enter_continue();
         view_account();
